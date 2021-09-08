@@ -1,0 +1,134 @@
+html, body {
+    background-color: #fff;
+    font-family: Tw Cen MT;
+    width: auto;
+    height: auto;
+  }
+  
+  .card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -225px;
+    margin-left: -300px;
+    overflow: hidden;
+    background-color: #293C61;
+    box-shadow: rgba(149, 157, 165, 0.8) 0px 8px 24px;
+    width: 600px;
+    height: 450px;
+  }
+  
+  .open {
+    height: 370px;
+    position: relative;
+  }
+  .open .rabbit02 {
+    position: absolute;
+    top: 8px;
+    left: 481px;
+    height: 150px;
+    width: 100px;
+    background: url(https://upload.cc/i1/2021/09/06/njFb4e.png);
+  }
+  .open .cloud03 {
+    position: absolute;
+    top: 84px;
+    left: 325px;
+    height: 64px;
+    width: 265px;
+    background: url(https://upload.cc/i1/2021/09/06/q5xUKo.png);
+  }
+  .open .shine01 {
+    position: absolute;
+    top: 20px;
+    left: 90px;
+    height: 210px;
+    width: 135px;
+    background: url(https://upload.cc/i1/2021/09/06/ZNtv3m.gif);
+  }
+  .open .shine02 {
+    position: absolute;
+    top: 100px;
+    left: 216px;
+    height: 300px;
+    width: 300px;
+    background: url(https://upload.cc/i1/2021/09/06/ZNtv3m.gif);
+  }
+  .open .cloud02 {
+    position: absolute;
+    top: 100px;
+    left: -338px;
+    height: 188px;
+    width: 539px;
+    background: url(https://upload.cc/i1/2021/09/06/srGAiB.png);
+  }
+  .open .cloud01 {
+    position: absolute;
+    top: 192px;
+    left: 384px;
+    height: 178px;
+    width: 458px;
+    background: url(https://upload.cc/i1/2021/09/06/61Bzdy.png);
+  }
+  .open .rabbit01 {
+    position: absolute;
+    top: 158px;
+    left: 80px;
+    height: 150px;
+    width: 120px;
+    background: url(https://upload.cc/i1/2021/09/06/dzrC8j.png);
+    transition-duration: 1s;
+    transition-delay: 0.1s;
+  }
+  .open .moon {
+    margin-right: auto;
+    margin-left: auto;
+    top: 80px;
+    width: 290px;
+    height: 290px;
+    border-radius: 50%;
+    background: radial-gradient(#FFEA2E, #FFA800);
+    position: relative;
+  }
+  .open .moon .midmoon {
+    opacity: 1;
+    position: absolute;
+    left: 40px;
+    top: 90px;
+    width: 220px;
+    color: #fff;
+    font-weight: 800;
+  }
+  .open .moon .midmoon .happy {
+    font-size: 50px;
+    color: #293C61;
+    font-weight: 600;
+  }
+  .open .moon .midmoon .mid {
+    font-size: 36px;
+    color: #293C61;
+  }
+  .open .moon .midmoon .year {
+    font-size: 20px;
+  }
+  .open .moon .midmoon .year .line {
+    display: inline-block;
+    width: 160px;
+    height: 1px;
+    background-color: #fff;
+    margin: 4px 0px;
+  }
+  .open .moon .midmoon .year .thisyear {
+    display: inline-block;
+  }
+  
+  .footer {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer .logo {
+    width: 57px;
+    height: 24px;
+  }
